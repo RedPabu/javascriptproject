@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
     async function fetchAndPopulateCurrencies() {
         try {
             
-            const url = `http://api.exchangeratesapi.io/v1/latest?access_key=ff225d5e35a3de5399077a7e02a07030`;
+            const url = `http://api.exchangeratesapi.io/v1/latest?access_key=8a80a3f376cde5edede89424e3ef9e29`;
 
             const response = await fetch(url);
             if (!response.ok) {
@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         try {
             
-            const url = `http://api.exchangeratesapi.io/v1/latest?access_key=ff225d5e35a3de5399077a7e02a07030`;
+            const url = `http://api.exchangeratesapi.io/v1/latest?access_key=8a80a3f376cde5edede89424e3ef9e29`;
             const response = await fetch(url);
             if (!response.ok) {
                 throw new Error("Failed to fetch exchange rates.");
