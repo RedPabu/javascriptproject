@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         try {
             
-            const url = `http://api.exchangeratesapi.io/v1/latest?access_key=8cc86af63bb2b5616ff15dbbb06a2865`;
+            const url = `http://api.exchangeratesapi.io/v1/latest?access_key=ff225d5e35a3de5399077a7e02a07030`;
             const response = await fetch(url);
             if (!response.ok) {
                 throw new Error("Failed to fetch exchange rates.");
