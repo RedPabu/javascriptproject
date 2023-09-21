@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
     async function fetchAndPopulateCurrencies() {
         try {
             
-            const url = `http://api.exchangeratesapi.io/v1/latest?access_key=8cc86af63bb2b5616ff15dbbb06a2865`;
+            const url = `http://api.exchangeratesapi.io/v1/latest?access_key=ff225d5e35a3de5399077a7e02a07030`;
 
             const response = await fetch(url);
             if (!response.ok) {
@@ -79,6 +79,6 @@ document.addEventListener("DOMContentLoaded", function () {
     // Add click event listener to the convert button
     convertButton.addEventListener("click", convertCurrency);
 
-    // Populate currency dropdowns on page load
+    // Populate currency dropdowns
     fetchAndPopulateCurrencies();
 });
